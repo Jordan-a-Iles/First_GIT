@@ -12,7 +12,7 @@ gc(full = TRUE)
 require(tidyverse)
 
 #### Set working directory ----
-setwd('~/../Dropbox/JCU/R/FirstGIT/analysis')
+setwd('~/../Dropbox/JCU/R/First_GIT')
 
 #### create dataframe (tibble) ----
 

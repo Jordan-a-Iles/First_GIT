@@ -11,6 +11,6 @@ rm(list = ls(all.names = TRUE))
 require(tidyverse)
 
 #### Set working directory ----
-setwd('~/../Dropbox/JCU/R/FirstGIT')
+setwd('~/../Dropbox/JCU/R/First_GIT')
 
 #### Start coding! ----
