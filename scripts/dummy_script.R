@@ -24,6 +24,8 @@ dat <- tibble(x = rnorm(n = 500,
                         sd = 2.5),
               g = c(rep('a', 125), rep('b', 125), rep('c', 125), rep('d', 125)))
 
+write_csv(x = dat,
+          path = 'output/dat.csv')
 
 #### make a plot -----
 
@@ -35,6 +37,7 @@ p1 <- ggplot(dat, aes(x = x, y = y)) +
 ggsave(filename = 'output/plots/scatter_plot.png',
        plot = p1,
        width = 10.6, height = 10.6, units = 'cm')
+
 
 #### END ----
 
