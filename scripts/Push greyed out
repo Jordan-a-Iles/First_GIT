@@ -1,0 +1,8 @@
+# For when the push icon is greyed out in Rstudio:
+
+# 1. Open your console and navigate to your repo (GIT tab > More > Shell)
+# 2. Make some commit
+# 3. Make a push using -u (i.e. --set-upstream) flag, eg: git push origin master -u
+# 4. Open Rstudio (or restart it if it was open while performing the previous step) and you'll see the push and pull icons are no longer greyed out.
+
+# https://stackoverflow.com/questions/39976526/rstudio-greyed-out-git-commands-and-no-branch
